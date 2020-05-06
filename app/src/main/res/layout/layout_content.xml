@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/call_static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call static (num: 5)"></Button>
+
+            <Button
+                android:id="@+id/call_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call normal"></Button>
+
+            <Button
+                android:id="@+id/modify_static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="modify static"></Button>
+
+            <Button
+                android:id="@+id/modify_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="modify mormal"></Button>
+
+            <Button
+                android:id="@+id/call_static_fun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call static fun"></Button>
+
+            <Button
+                android:id="@+id/call_fun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call fun"></Button>
+
+            <Button
+                android:id="@+id/call_new_object"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call new object"></Button>
+
+            <Button
+                android:id="@+id/call_super_class_fun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call super class fun"></Button>
+
+
+            <Button
+                android:id="@+id/call_char_array"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call char array"></Button>
+
+            <Button
+                android:id="@+id/call_object_array"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call object array"></Button>
+
+            <Button
+                android:id="@+id/call_string_utf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call string utf"></Button>
+
+
+            <Button
+                android:id="@+id/call_jni_exception"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call jni exception"></Button>
+
+            <Button
+                android:id="@+id/call_jni_sig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call jni sig"></Button>
+
+            <Button
+                android:id="@+id/call_jni_thread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call jni thread"></Button>
+
+
+            <Button
+                android:id="@+id/call_jni_sync"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call jni sync"></Button>
+
+            <Button
+                android:id="@+id/call_jni_nio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="call jni nio"></Button>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
