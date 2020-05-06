@@ -1,5 +1,5 @@
 # NDK实战之JNI编程
-[NDK实战之JNI编程系列博文]()
+[NDK实战之JNI编程系列博文](https://891904833.gitee.io/fuckingcode/categories/NDK%E5%AE%9E%E6%88%98/)
 
 博文大纲
 1. JNI开篇引读
